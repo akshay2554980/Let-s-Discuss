@@ -1,0 +1,22 @@
+.login__container{
+ background-color: white;
+ height: 70vh;
+ width: 60vh;
+ display:flex;
+ flex-direction: column;
+ place-items: center;
+ padding: 10px;
+ text-align: center;
+ border-radius: 10px;   
+}
+.login__container>img{
+    object-fit: contain;
+    height: 125px;
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+.login__container > Button{
+    margin-top: 20px;
+    font-size: medium;
+    background-color: #78dba6;
+}

@@ -1,0 +1,86 @@
+.Chat{
+    flex: .65;
+    display: flex;
+    flex-direction: column;
+}
+.chat__header{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    border: 1px lightgray solid;
+}
+.chat__headerInfo{
+    flex:1;
+    margin-left: 20px;
+}
+.chat__headerInfo > h3{
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+.chat__headerInfo > p{
+    color:gray;
+}
+.chat__righticons{
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+}
+.chat__body{
+    flex:1;
+    background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    overflow: scroll;
+}
+.chat__message{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px; 
+    width: fit-content;
+    margin-bottom: 15px;
+    position: relative;
+}
+.chat__name{
+    font-size: x-small;
+    font-weight:800;
+    position: absolute;
+    top: -17px;
+}
+.chat__timestamp{
+    font-size: x-small;
+    margin-left: 10px;
+}
+.chat__receiver{
+    margin-left: auto;
+    background-color:#dcf8c6 ;
+}
+.chat__footer{
+    display: flex;
+    justify-content: space-between;
+    height: 62px;
+    border: 1px solid lightgray;
+    align-items: center;
+}
+.chat__footer>form{
+    display: flex;
+    flex:1;
+}
+/* first specify flex 1 for the form and then for the form input.... */
+/* so that input can take all available width to it ... */
+.chat__footer>form>input{
+    flex: 1;
+    border-radius: 30px;
+    border: none;
+    padding:10px;
+}
+.chat__footer > form> button {
+    /* *** TRICK****  with the help of this we can hide the button and still keeep the functionality of enter
+    and get free from click event of mouse........... */
+    display: none;       
+}
+.chat__footer > .MuiSvgIcon-root{
+    color: grey;
+    padding: 10px;
+}
