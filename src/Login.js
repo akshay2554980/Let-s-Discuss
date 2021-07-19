@@ -20,9 +20,9 @@ function Login() {
     return (
        <div className="login">
        <div className="login__container">
-           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1G196upi5oxJbBWDzq0vC4qrw9PaDMoi5ww&usqp=CAU" alt="whatsapp logo" />
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUs8WfRF-ZkzyDlOXs3rjI4d_d0rLBxUgNMA&usqp=CAU" alt="whatsapp logo" />
             <div className="logintext">
-                <h1>Sign in to WhatsApp</h1>
+                <h1>Sign in to Let's Discuss</h1>
             </div>
             <Button type="submit" onClick={signIn}>
             Sign in with google
